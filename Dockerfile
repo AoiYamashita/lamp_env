@@ -10,7 +10,7 @@ ENV TZ=Asia/Tokyo
 WORKDIR /root
 
 #------------ install git
-RUN apt install git
+RUN apt-get install git -y
 
 #------------ setup lamp
 COPY ./src/setup.sh /root/
