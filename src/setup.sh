@@ -9,6 +9,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 #------------- install apps
 apt update
-apt-get install apache2 apache2-dev
-apt install mysql-server mysql-client
+apt-get install apache2 apache2-dev -y
+apt install mysql-server mysql-client -y
 apt install -y php
